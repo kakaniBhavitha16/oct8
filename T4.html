@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box_Model_T4</title>
+    <style>
+        .container{
+    width: 600px;
+    border-style: solid;
+    border-width: 5px;
+}
+.header-container{
+    height: 100px;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+.header-section{
+    height: 80px;
+    width: 80px;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    margin: 10px;
+    background-color: tomato;
+}
+.hsection-2, .hsection-3{
+    margin-left: 130px;
+}
+.section{
+    height: 300px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    display: inline-block;
+}
+.section-1{
+    width: 350px;
+    margin-right: 50px;
+    background-color: bisque;
+}
+.section-2{
+    width: 150px;
+    background-color: thistle;
+}
+.footer{
+    height: 100px;
+    margin: 15px;
+    border-style: solid;
+    background-color: steelblue;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <section class="header-section"></section>
+            <section class="header-section hsection-2"></section>
+            <section class="header-section hsection-3"></section>
+        </div>
+        <section class="section section-1"></section>
+        <section class="section section-2"></section>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>

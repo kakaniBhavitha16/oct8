@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box_Model_T3</title>
+    <style>
+        .container{
+    width: 500px;
+    border-width: 3px;
+    border-style: solid;
+}
+.V-section{
+    height: 300px;
+    width: 100px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    background-color: chocolate;
+}
+.section{
+    width: 200px;
+    background-color: burlywood;
+}
+.section-container{
+    /* height: 120px; */
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+    
+}
+.h-section{
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <section class="V-section"></section>
+        <section class="V-section"></section>
+        <section class="V-section section"></section>
+        <div class="section-container">
+            <section class="h-section"></section>
+            <section class="h-section"></section>
+            <section class="h-section"></section>
+        </div>
+    </div>
+</body>
+</html>
